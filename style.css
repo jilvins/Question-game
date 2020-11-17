@@ -1,0 +1,32 @@
+.full-size {
+    height: 100%;
+}
+#imageBody {
+    background-color: bisque;
+    text-align: center;
+}
+
+#oponentImage {
+    
+    height: 250px;
+    width: 250px;
+}
+
+.oponentText { 
+    text-align: center; 
+    background-color: blueviolet;
+    height: 10%;
+}
+
+#yourText {
+    background-color: brown;
+    height: 30%;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px;
+
+}
+#yourText:hover {
+    cursor: pointer;
+}
+
