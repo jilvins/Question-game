@@ -8,8 +8,9 @@ const questions = document.getElementById('yourText')
 function showQuestion() {
     let randomNumber = Math.floor(Math.random() * questionList.length)
     let randomQuestion = questionList[randomNumber]
-    const newDiw = document.createElement('p')
+    const newDiw = document.createElement('button')
     newDiw.setAttribute ('id', 'jaut5')
+    newDiw.classList.add('question-key')
     newDiw.innerText = randomQuestion
     questions.appendChild(newDiw)    
 }
@@ -27,8 +28,8 @@ document.getElementById('jaut3').addEventListener('click', function() {
 document.getElementById('jaut4').addEventListener('click', function renderFriend() {
     const newFriend = document.createElement('IMG')
     newFriend.setAttribute('src', '/images/smiley-4832530_640.png') 
-    newFriend.setAttribute('width', '250')
-    newFriend.setAttribute('height', '250')
+    newFriend.setAttribute('width', 'auto')
+    newFriend.setAttribute('height', '450')
     imageBody.appendChild(newFriend) 
 })
 document.getElementById('jaut5').addEventListener('click', function() {
