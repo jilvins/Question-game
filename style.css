@@ -45,3 +45,7 @@
 .question-key:hover {
     background-color: cornflowerblue;
 }
+
+.answered {
+    display: none;
+}
